@@ -5,6 +5,17 @@ html {
   font-size: 1em;
   hyphens: auto;
 }
+body {
+    font-family: Times, Times New Roman, serif;
+	font-size: 1.1rem;
+	font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+	font-family: "Times New Roman", serif;
+	padding-left: 1px;
+	padding-right: 1px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
 
 .omi {
 /* background-color: #ffffcc;*/
