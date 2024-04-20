@@ -47,15 +47,17 @@ h1 {
 h2 {
   display: block;
   font-family: Times, Times New Roman, serif;
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: normal;
   font-variant: all-petite-caps;
   line-height: 1.1;
   page-break-after: avoid;
   page-break-inside: avoid;
   text-align: center;
-  margin-top: 1.5em;
+  margin-top: 1.4em;
   margin-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
   padding: 0;
 }
 
@@ -69,7 +71,10 @@ h3 {
   page-break-after: avoid;
   page-break-inside: avoid;
   text-align: center;
-  margin: 18pt 0 6pt;
+  margin-top: 1.1em;
+  margin-bottom: 0.8em;
+  margin-left: 0em;
+  margin-right: 0em;
   padding: 0;
 }
 
