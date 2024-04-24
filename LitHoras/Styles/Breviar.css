@@ -16,7 +16,7 @@ body {
     -ms-hyphens: auto;
 	hyphens: auto;
 }
-.divIframe {
+div.Iframe {
   max-width: 20px;
 }
 
