@@ -25,6 +25,16 @@ body {
   hyphens: auto;
 }
 
+.vtx {
+	display: block;
+ 	font-size: 1.1;
+	 margin-top: 0em;
+	 margin-bottom: 0em;
+	 margin-left: 5em;
+	 margin-right: 0pt;
+ 	text-indent: -3%;
+ }
+ 
 .indice1 {
   font-family: "Times New Roman", serif;
   font-size: 1.2em;
