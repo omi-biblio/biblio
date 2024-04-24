@@ -17,9 +17,7 @@ body {
 	hyphens: auto;
 }
 .divIframe {
-  margin: auto;
-  hyphens: auto;
-  max-width: 90%;
+  max-width: 70%;
 }
 
 .omi {
