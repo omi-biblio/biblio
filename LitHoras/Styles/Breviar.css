@@ -16,6 +16,11 @@ body {
     -ms-hyphens: auto;
 	hyphens: auto;
 }
+.divIframe {
+  margin: auto;
+  hyphens: auto;
+  max-width: 90%;
+}
 
 .omi {
 /* background-color: #ffffcc;*/
