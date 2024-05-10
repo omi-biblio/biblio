@@ -87,15 +87,6 @@ h3 {
 }
 
 
-
-
-
-
-<style>body {
-    margin-left: 15%;
-    margin-right: 15%;
-    text-align: justify
-    }
 p {
   display: block;
   font-size: 1.1em;
@@ -110,15 +101,10 @@ p {
   margin-left: 0em;
   padding: 0;
     }
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%
-    }
-hr {
-    width: 50%;
-    text-align: center
-    }
+    
+
+h
+    
 blockquote {
     font-size: 100%;
     margin-left: 0%;
@@ -160,27 +146,32 @@ a:hover {
 .pT3but a:visited {
   color: white;
 }
+
 .pT3but {
   font-family: "Times New Roman", serif;
   letter-spacing: 3px;
   text-align: center;
+    text-indent: 0em;
   font-weight: normal;
   margin-bottom: 0.2em;
   margin-top: 0em;
   margin-left: 0em;
+   margin-right: 0em;
   color: brown;
 }
 
 
 .butXL {
-  font: normal 22px Times;
+  font: normal 20px Times;
   background-color: orange;
   border: none;
   border-radius: 8px;
   color: white;
   padding-bottom: 0.2em;
+    padding-left: 0em;
   padding-top: 0.2em;
   text-align: center;
+    text-indent: 0em;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
