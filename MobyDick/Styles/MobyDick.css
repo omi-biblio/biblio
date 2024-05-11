@@ -78,7 +78,6 @@ h3 {
 
 
 .Indice1 {
-  display: block;
   font-family: "Times New Roman", serif;
   font-size: 1.1em;
   text-align: left;
@@ -87,7 +86,7 @@ h3 {
 }
 
 
-p {
+.normal {
   display: block;
   font-size: 1.1em;
   font-weight: normal;
@@ -101,28 +100,9 @@ p {
   margin-left: 0em;
   padding: 0;
     }
+
     
 
-h
-    
-blockquote {
-    font-size: 100%;
-    margin-left: 0%;
-    margin-right: 0%
-    }
-
-.toc {
-    margin-left: 10%;
-    margin-bottom: 0.75em
-    }
-pre {
-    font-family: times new roman;
-    font-size: 100%;
-    margin-left: 10%
-    }
-table {
-    margin-left: 10%
-    }
 
 
 a:link {
