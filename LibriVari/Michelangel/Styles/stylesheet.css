@@ -64,6 +64,20 @@ h3 {
   color: mediumblue;
 }
 
+
+.chapter {
+  display: block;
+  font-family: "Calibri Light", sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  margin: 18pt 0 6pt;
+  padding: 0;
+  color: mediumblue;
+}
 .noteref {
   h1text-decoration: none;
 }
