@@ -112,6 +112,35 @@ h3 {
   padding: 0;
 }
 
+.txtIndent {
+  display: block;
+  font-size: 1.1em;
+  font-weight: normal;
+  line-height: 1.2;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: justify;
+  text-indent: 1.5em;
+  margin-top: 0.3em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  padding: 0;
+}
+.versi  {
+    display: block;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.2;
+  font-style: italic;
+
+  text-align: left;
+  text-indent: 0em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  margin-left: 1em;
+  padding: 0;
+}
+
 .Verso {
   display: block;
   font-size: 1.1em;
