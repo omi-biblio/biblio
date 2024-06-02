@@ -1,0 +1,291 @@
+html {
+  max-width: 60ch;
+  padding: 0.5ch;
+  margin: auto;
+  font-size: 1em;
+  hyphens: auto;
+}
+
+body {
+  font-family: Times, Times New Roman, serif;
+  font-size: 1.1rem;
+  font-size: clamp(1.1rem, 1.1rem + 0.25vw, 1.35rem);
+  font-family: "Times New Roman", serif;
+  padding-left: 1px;
+  padding-right: 1px;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+p,h1,h2,ol,li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: "Calibri", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  text-align: center;
+  text-indent: 0em;
+  margin-bottom: 1em;
+  padding: 0;
+  color: mediumblue;
+}
+
+h2 {
+  display: block;
+  font-family: "Calibri", sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+  line-height: 1.2;
+  text-align: center;
+  text-indent: 0em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding: 0;
+  color: mediumblue;
+}
+
+p.bk-title1 {
+  font-weight: bold;
+  font-size: 150%;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  text-indent: 0em;
+  text-align: center;
+}
+
+p.authorname {
+  font-size: 120%;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  text-align: center;
+}
+
+p.publisher {
+  font-size: 0.9em;
+  margin-top: 16em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  text-align: center;
+}
+
+p.no_indent {
+  font-size: normal;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  text-align: justify;
+}
+
+p.normal1 {
+  font-size: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  text-align: justify;
+}
+
+p.normal {
+  font-size: normal;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  text-indent: 1em;
+  text-align: justify;
+}
+
+p.indent1 {
+  font-size: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  text-indent: 1em;
+  text-align: justify;
+}
+
+p.blq-indent {
+  font-size: 0.9em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 1.8em;
+  margin-right: 1.8em;
+  text-indent: 1em;
+  text-align: justify;
+}
+
+p.blq-indent1 {
+  font-size: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  margin-left: 1.8em;
+  margin-right: 1.8em;
+  text-indent: 1em;
+  text-align: justify;
+}
+
+span.smallcaps {
+  font-size: 75%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p.left-1 {
+  font-size: 0.9em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 6em;
+  text-indent: -1em;
+  text-align: left;
+}
+
+p.left-2 {
+  font-size: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  margin-left: 6em;
+  text-indent: -1em;
+  text-align: left;
+}
+
+p.left-3 {
+  font-size: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  margin-left: 6em;
+  text-indent: -1em;
+  text-align: left;
+}
+
+p.left-4 {
+  font-size: 0.9em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 7em;
+  text-indent: -1em;
+  text-align: left;
+}
+
+p.right {
+  font-size: 0.9em;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  margin-right: 0em;
+  margin-left: 0em;
+  text-align: right;
+}
+
+a:visited,a:hover {
+  color: black;
+}
+
+div.orange_box a:visited {
+  color: #FFFFFF;
+}
+
+span.orange a:visited {
+  color: #ef3f35;
+}
+
+h1.chap-title {
+  font-family: Times, Times New Roman, serif;
+  font-size: 150%;
+  margin-top: 1em;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+ol.nav-ol {
+  font-size: 0, 9em;
+  margin-top: 0.1em;
+  margin-bottom: 0.5em;
+  margin-left: 1.8em;
+  text-align: justify;
+  text-indent: 0em;
+}
+
+.white a:visited {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+  -webkit-text-fill-color: #FFFFFF;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-size: 1.3em;
+}
+
+.pT3but a:link {
+  color: white;
+}
+
+.pT3but a:visited {
+  color: white;
+}
+
+.pT3but {
+  font-family: "Times New Roman", serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-top: 0em;
+  color: brown;
+}
+
+.butXL {
+  font: normal 22px Times;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding-bottom: 0.2em;
+  padding-top: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.butXL {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.butXL {
+  width: 40%;
+}
+
+.fixedButton {
+  position: fixed;
+  bottom: 15px;
+  right: 2px;
+  margin-bottom: 15px;
+}
