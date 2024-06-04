@@ -65,8 +65,11 @@ h2{
   text-align: justify;
   text-indent: 1em;
 }
-
-
+.no_indent::first-letter {
+      font-size: 1.3em;
+  font-weight: bold;
+  color: red;
+}
 li {
   list-style-type: none;
 }
